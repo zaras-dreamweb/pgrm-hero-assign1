@@ -29,7 +29,7 @@ h3{
 }
 
 p{
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .container{
@@ -79,12 +79,39 @@ p{
     padding-left: 10%;
 }
 
+#learn-more{
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 10px grey;
+}
+
+ /* .add-pic {
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    position: right;
+    background-size: 20%;} */
 
 .btn-btn{
     color: rgb(253, 250, 250);
     text-decoration: none;
     border-radius: 2px;
-    padding: 10px 30px;
+    padding:10px 30px;
     font-weight: 700;
     background-image: linear-gradient(rgb(60, 60, 221),rgb(243, 128, 147));
 }
+
+#form-div{
+    padding-bottom: 10%;
+}
+
+#footer{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: grey;
+    color: rgb(251, 248, 242);
+}
+
+#bottom-span{
+    color: rgb(124, 248, 232);
+}
+
