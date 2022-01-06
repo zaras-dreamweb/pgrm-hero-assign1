@@ -15,14 +15,22 @@ h1{
     border-image: linear-gradient(blue,pink);
     border-image-slice: 1;
 }
-
 h2{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 
 h3{
+    font-size: 40px;
+    text-align: left;
+}
+
+h4{
+    font-size: 20px;
     padding-left: 10%;
+}
+h5{
+    font-size: 15px;
 }
 .salmon{
     color: salmon;
@@ -85,11 +93,6 @@ p{
     box-shadow: 10px 10px 10px 10px grey;
 }
 
- /* .add-pic {
-    background-image: url(images/shapes/shape-1.png);
-    background-repeat: no-repeat;
-    position: right;
-    background-size: 20%;} */
 
 .btn-btn{
     color: rgb(253, 250, 250);
@@ -101,17 +104,25 @@ p{
 }
 
 #form-div{
-    padding-bottom: 10%;
+    padding-top: 80%;
+    padding-bottom: 5%;
+}
+
+#move-right-pic{
+    width: 50%;
+    margin-top:15%;
+    margin-left: 55%;
 }
 
 #footer{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Brush Script MT, Brush Script Std, cursive;
     text-align: center;
-    background-color: grey;
+    background-color: rgb(131, 131, 131);
     color: rgb(251, 248, 242);
+    margin-top: 5%;
 }
 
 #bottom-span{
-    color: rgb(124, 248, 232);
+    color: rgb(231, 123, 245);
 }
 
